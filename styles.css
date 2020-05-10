@@ -65,12 +65,13 @@ body {
 }
 
 .banner__slogan {
-  font-size: 24px;
+  font-size: 28px;
   margin-top: 10vh;
   font-weight: bold;
 }
 
 .banner__inner__slogan {
+  color: #444444;
   font-size: 16px;
   margin-top: 2vh;
 }

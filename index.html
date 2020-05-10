@@ -7,7 +7,6 @@
   <title>Foodfy</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-  <script src='index.js'></script>
 </head>
 
 <body>
@@ -41,36 +40,90 @@
     </section>
 
     <h2>Mais acessadas</h2>
+
     <section class="cardapio">
 
-      <div class="receita">
+      <div class="receita" id="burger">
         <div class="image__container">
-          <img src="/assets/hamburguer.png" alt="">
+          <img src="/assets/burger.png" alt="">
         </div>
-        <h4>Triplo bacon burger</h4>
-        <p>por Jorge Relato</p>
+        <div class="receita__infos">
+          <h3>Triplo bacon burger</h3>
+          <p>por Jorge Relato</p>
+        </div>
       </div>
 
-      <div class="receita">
+      <div class="receita" id="pizza">
         <div class="image__container">
-          <img src="/assets/hamburguer.png" alt="">
+          <img src="/assets/pizza.png" alt="">
         </div>
-        <h4>Triplo bacon burger</h4>
-        <p>por Jorge Relato</p>
+        <div class="receita__infos">
+          <h3>Pizza 4 estaçõs</h3>
+          <p>por Fabiana Melo</p>
+        </div>
       </div>
 
-      <div class="receita">
+      <div class="receita" id="lasanha">
         <div class="image__container">
-          <img src="/assets/hamburguer.png" alt="">
+          <img src="/assets/lasanha.png" alt="">
         </div>
-        <h4>Triplo bacon burger</h4>
-        <p>por Jorge Relato</p>
+        <div class="receita__infos">
+          <h3>Lasanha mac n' cheese</h3>
+          <p>por Juliano Vieira</p>
+        </div>
+      </div>
+
+      <div class="receita" id="doce">
+        <div class="image__container">
+          <img src="/assets/doce.png" alt="">
+        </div>
+        <div class="receita__infos">
+          <h3>Docinhos pão-do-céu</h3>
+          <p>por Ricardo Golvea</p>
+        </div>
+      </div>
+
+      <div class="receita" id="asinhas">
+        <div class="image__container">
+          <img src="/assets/asinhas.png" alt="">
+        </div>
+        <div class="receita__infos">
+          <h3>Asinhas de frango ao barbecue</h3>
+          <p>por Vania Steroski</p>
+        </div>
+      </div>
+
+      <div class="receita" id="espaguete">
+        <div class="image__container">
+          <img src="/assets/espaguete.png" alt="">
+        </div>
+        <div class="receita__infos">
+          <h3>Espaguete ao alho</h3>
+          <p>por Júlia Kinoto</p>
+        </div>
       </div>
 
     </section>
+
   </div>
 
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="modal-content">
+        <img src="" alt="Foto">
+        <br />
+        <h3></h3>
+        <p></p>
+      </div>
+      <p class="close-modal">Fechar Modal</p>
+    </div>
+  </div>
 
+  <section class="footer">
+    <p>Todos os direitos reservados, receitas Foodfy</p>
+  </section>
+
+  <script src='index.js'></script>
 </body>
 
 </html>

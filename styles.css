@@ -87,6 +87,7 @@ h2 {
 }
 
 .cardapio {
+  margin-top: 20px;
   width: 940px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
